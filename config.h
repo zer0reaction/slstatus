@@ -67,5 +67,6 @@ static const char unknown_str[] = "n/a";
 	{ cpu_perc, "[CPU %s%] ", NULL },
 	{ ram_perc, "[RAM %s%] ", NULL },
 	{ swap_perc, "[SWAP %s%] ", NULL },
+    { temp, "[TEMP %sC] ", "/sys/class/thermal/thermal_zone0/temp" },
 	{ datetime, "[%s]", "%F %r" },
 };
